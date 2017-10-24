@@ -1,0 +1,264 @@
+﻿{
+    "core": {
+        "commands": {
+            "apply-filter": "Tallenna ja ota käyttöön",
+            "rebuild-index": "Indeksoi"
+        },
+        "main-menu-title": {
+            "search-index":  "Hakuindeksi" 
+        },
+        "blades": {
+            "index-progress": {
+                "labels": {
+                    "start": "Aloitus",
+                    "end": "Lopetus",
+                    "errors": "Virheet",
+                    "stats": "Indeksoitu - {{ processedCount }} / {{ totalCount }} dokumenttia"
+                }
+            },
+            "index-detail": {
+                "title": "Hakuindeksi",
+                "title-new": "Hakuindeksiä ei löydy",
+                "subtitle": "Hakuideksin tiedot",
+                "labels": {
+                    "no-index": "Indeksiä ei löydy",
+                    "build-date": "Viimeeksi indeksoitu",
+                    "content": "Indeksin sisältö"
+                }
+            },
+            "address-list": {
+                "labels": {
+                    "no-addresses": "Ei osoitteita"
+                }
+            },
+            "address-detail": {
+                "subtitle": "Muokkaa osoitetta",
+                "labels": {
+                    "address-type": "Osoitetyyppi",
+                    "first-name": "Etunimi",
+                    "last-name": "Sukunimi",
+                    "country": "Maa",
+                    "region": "Alue",
+                    "city": "Kaupunki",
+                    "address": "Osoite",
+                    "zip-code": "Postinumero",
+                    "email": "Sähköposti",
+                    "phone": "Puhelin"
+                },
+                "placeholders": {
+                    "address-type": "Valitse...",
+                    "first-name": "Syötä etunimi",
+                    "last-name": "Syötä sukunimi",
+                    "country": "Valitse...",
+                    "region": "Syötä alue",
+                    "city": "Syötä kaupunki",
+                    "address1": "Syötä osoiterivi 1",
+                    "address2": "Syötä osoiterivi 2",
+                    "zip-code": "Syötä postinumero",
+                    "email": "Syötä sähköpostiosoite",
+                    "phone": "Syötä puhelinnumero"
+                }
+            },
+            "currency-list": {
+                "title": "Valuutat",
+                "subtitle": "Hallinnoi järjestelmän valuutoita",
+                "labels": {
+                    "exchange-rate": "Vaihtokurssi:",
+                    "no-currencies": "Ei valuutoita"
+                }
+            },
+            "currency-detail": {
+                "new-title": "Uusi valuutta",
+                "new-subtitle": "Syötä valuutan tiedot",
+                "subtitle": "Muokkaa valuutan tietoja",
+                "labels": {
+                    "code": "Koodi",
+                    "name": "Nimi",
+                    "is-primary": "Ensisijainen",
+                    "exchange-rate": "Vaihtokurssi",
+                    "symbol": "Symboli",
+                    "custom-formatting": "Valuutan muotoilu"
+                },
+                "placeholders": {
+                    "symbol": "Syötä symboli tai jätä tyhjäksi käyttääksesi kulttuuriasetusten oletusarvoa"
+                }
+            },
+            "fulfillment-center-contact": {
+                "labels": {
+                    "country": "Maa",
+                    "region": "Alue",
+                    "city": "Kaupunki",
+                    "address": "Osoite",
+                    "zip-code": "Postinumero",
+                    "phone": "Puhelin"
+                },
+                "placeholders": {
+                    "country": "Valitse...",
+                    "region": "Syötä alue",
+                    "city": "Syötä kaupunki",
+                    "address1": "Syötä osoiterivi 1",
+                    "address2": "Syötä osoiterivi 2",
+                    "zip-code": "Syötä postinumero",
+                    "phone": "Syötä puhelinnumero"
+                }
+            },
+            "fulfillment-center-detail": {
+                "subtitle": "Muokkaa täydennuskeskusta",
+                "labels": {
+                    "name": "Nimi",
+                    "description": "Kuvaus",
+                    "max-releases": "Maks. toimitukset/noutoerä",
+                    "pick-delay": "Noudon viive"
+                }
+            },
+            "fulfillment-center-list": {
+                "title": "Täydennyskeskukset",
+                "subtitle": "Hallinnoi täydennyskeskuksia"
+            },
+            "seo-list": {
+                "subtitle": "Hallinnoi SEO-asetuksia",
+                "labels": {
+                    "duplicates-found": "Löytyi {{count}} semanttista URL-konfliktia!",
+                    "resolve-duplicates": "Ratko konfliktit",
+                    "language-code": "Kieli",
+                    "container": "Kauppa",
+                    "semanticUrl": "Semanttinen URL"
+                }
+            },
+            "seo-detail": {
+                "title-new": "Uusi SEO",
+                "subtitle": "SEO tiedot",
+                "labels": {
+                    "is-active": "Aktiivinen",
+                    "store": "Kauppa",
+                    "language": "Kieli",
+                    "url-keyword": "URL-avainsana",
+                    "page-title": "Sivun otsikko",
+                    "meta-description": "Metakuvaus",
+                    "alternative-text": "Kuvan vaihtoehtoinen teksti"
+                },
+                "placeholders": {
+                    "store": "Valitse kauppa",
+                    "language": "Valitse kieli",
+                    "url-keyword": "Syötä avainsana",
+                    "page-title": "Syötä otsikko",
+                    "meta-description": "Syötä kuvaus",
+                    "alternative-text": "Syötä teksti"
+                },
+                "validations": {
+                    "url-keyword-required": "Pakollinen",
+                    "url-keyword-invalid": "URL sisältää epäkelpoja merkkejä",
+                    "url-keyword-duplicate": "Löytyi URL:n kaksoiskappale"
+                }
+            },
+            "seo-duplicates": {
+                "subtitle": "SEO-konfliktit",
+                "labels": {
+                    "semanticUrl": "Semanttinen URL",
+                    "container": "Kauppa"
+                }
+            },
+            "package-type-list": {
+                "title": "Paketin kokomääritykset",
+                "subtitle": "Hallinnoi järjestelmän pakettityyppejä",
+                "labels": {
+                    "no-packages": "Ei määritettyä paketteja"
+                }
+            },
+            "package-type-detail": {
+                "new-title": "Uusi pakettityyppi",
+                "new-subtitle": "Syötä paketin kokotiedot",
+                "subtitle": "Muokkaa paketin kokotietoja",
+                "labels": {
+                    "name": "Pakettityypin nimi",
+                    "name-description": "käytetään tunnistamiseen",
+                    "name-placeholder": "Syötä paketin tyyppinimi",
+                    "measureUnit": "Mittayksikkö",
+                    "measureUnit-description": "käytetään kokomääritysten ensisijaisena mittayksikkönä",
+                    "measureUnit-placeholder": "Valitse mittayksikkä tai määritä uusi",
+                    "width": "Leveys",
+                    "height": "Korkeus",
+                    "length": "Pituus"
+                }
+            },
+            "document-type-list": {
+                "title": "Dokumenttityypit",
+                "labels": {
+                    "document-type": "Dokumenttityyppi",
+                    "indexed-docs-total": "Dokumenttien lukumäärä",
+                    "provider": "Lähde",
+                    "scope": "Rajaus",
+                    "last-indexation-date": "Viimeeksi indeksoitu",
+                    "build-index": "Indeksoi",
+                    "rebuild-index": "Indeksoi uudestaan"
+                }
+            }
+        },
+        "dialogs": {
+            "reindex": {
+                "title": "Uudelleenideksoi hakuindeksi",
+                "msg1": "Valitse hakuindeksin päivitystapa. Vaihtoehdot:",
+                "msg2": "Indeksoi: Indeksoi ilman vanhan ideksin poistoa.",
+                "msg3": "Poista ja indeksoi: Nykyinen indeksi poistetaan ennen uudelleenindeksointia. HUOM! Haku ei löydä mitään ennen kuin uudelleenindeksointi on valmis!",
+                "index": "Indeksoi",
+                "reindex": "Poista ja indeksoi"
+            },
+            "address-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa tämän osoitteen?"
+            },
+            "address-save": {
+                "title": "Tallenna muutokset",
+                "message": "Osoitetta on muokattu, haluatko tallentaa muutokset?"
+            },
+            "currency-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa tämän valuutan?"
+            },
+            "currency-save": {
+                "title": "Tallenna muutokset",
+                "message": "Valuuttaa on muokattu, haluatko tallentaa muutokset?"
+            },
+            "fulfillment-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa tämän täydennyskeskuksen?"
+            },
+            "fulfillments-save": {
+                "title": "Tallenna muutokset",
+                "message": "Täydennyksiä on muokattu, haluatko tallentaa muutokset?"
+            },
+            "seo-save": {
+                "title": "Tallenna muutokset",
+                "message": "SEO-tietoja on muokattu, haluatko tallentaa muutokset?"
+            },
+            "package-type-save": {
+                "title": "Tallenna muutokset",
+                "message": "Pakettityyppiä on muokattu, haluatko tallentaa muutokset?"
+            },
+            "package-type-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa tämän pakettityypin?"
+            }
+        },
+        "widgets": {
+            "index": {
+                "index-ok": "Ideksoitu <span am-time-ago='indexDate'></span>",
+                "index-old": "Vanhentunut. Indeksoitu <span am-time-ago='indexDate'>",
+                "no-index": "Hakuindeksiä ei löydy"
+            },
+            "currency": {
+                "title": "Valuutat"
+            },
+            "fulfillmentCenterContact": {
+                "blade-subtitle": "Yhteystiedot",
+                "title": "Yhteystiedot"
+            },
+            "fulfillment": {
+                "title": "Täydennyskeskukset"
+            },
+            "seo": {
+                "title": "SEO"
+            }
+        }
+    }
+}
